@@ -19,5 +19,8 @@ Route::get('/', function () {
 
 Route::get('/comics',function(){
     $fumetti = config('db');
+    dd($fumetti);
+
+    return view('partials.comics',compact('fumetti'));
 
 })->name('fumetti');
