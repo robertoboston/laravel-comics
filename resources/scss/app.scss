@@ -1,4 +1,30 @@
 @import '~bootstrap/scss/bootstrap';
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.container{
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.bg-grey{
+    background-color: black
+}
+
+.card{
+    margin: 10px;
+    width: calc(100% / 6 - 20px);
+    background-color: black;
+   
+}
+
+.title-card{
+    color: white;
+}
 

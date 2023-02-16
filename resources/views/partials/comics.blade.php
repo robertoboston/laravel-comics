@@ -16,8 +16,21 @@
 </head>
 
 <body>
-    
-  <h1>comics</h1>
+    @include('partials.header')
+    <div class="bg-grey">
+        <div class="container">
+            @foreach ($fumetti as $item)
+                <div class="card">
+                    <img src="{{$item['thumb']}}" alt="{{$item['title']}}">
+                    <div class="title-card">
+                        {{$item['series']}}
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+
+    @include('partials.footer')
 
 </body>
 

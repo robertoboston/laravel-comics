@@ -16,7 +16,14 @@
 </head>
 
 <body>
-    <a href="{{route('fumetti')}}">comics</a>
+    <div class="logo">
+        <img src="" alt="">
+    </div>
+    <nav>
+        <a href="{{route('fumetti')}}">comics</a>
+        <a href=""></a>
+    </nav>
+    
 </body>
 
 </html>
