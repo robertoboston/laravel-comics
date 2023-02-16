@@ -17,6 +17,10 @@
 
 <body>
     @include('partials.header')
+    <div class="jumbo">
+        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+
+    </div>
     <div class="bg-grey">
         <div class="container">
             @foreach ($fumetti as $item)

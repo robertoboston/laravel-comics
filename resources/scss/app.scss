@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 1200px;
     flex-wrap: wrap;
     display: flex;
     
@@ -28,3 +28,32 @@
     color: white;
 }
 
+.navbar{
+    width: 1200px;
+    margin: 0 auto;
+    height: 120px;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    padding: 0 20px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.jumbo img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    
+}
