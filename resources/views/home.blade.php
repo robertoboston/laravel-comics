@@ -16,14 +16,17 @@
 </head>
 
 <body>
-   @include('partials.header')
+    @include('partials.header')
+    <div class="jumbo">
+        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
 
-    <main>
-     
-    </main>
-
+    </div>
+    <div class="bg-grey">
+        <div class="container text-white">
+            <h1>card fumetti --> link comics</h1>
+        </div>
+    </div>
     @include('partials.footer')
-
 </body>
 
 </html>
