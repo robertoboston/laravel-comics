@@ -22,8 +22,8 @@
         </div>
         <nav class="navigaton">
             <ul class="list">
-                <li>
-                    <a href="">Characters</a>
+                <li class=" {{Route::currentRouteName() == 'homepage' ? 'active' : ''}}">
+                    <a href="{{route('homepage')}}">Characters</a>
                 </li>
                 <li class=" {{Route::currentRouteName() == 'fumetti' ? 'active' : ''}}">
                     <a href="{{route('fumetti')}}">Comics</a>

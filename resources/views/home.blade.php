@@ -23,7 +23,7 @@
     </div>
     <div class="bg-grey">
         <div class="container text-white">
-            <h1>card fumetti --> link comics</h1>
+            <h1>card fumetti --> link comics in header</h1>
         </div>
     </div>
     @include('partials.footer')
