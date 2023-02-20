@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('page-title','comics')
 
 @section('content')
     <div class="jumbo">

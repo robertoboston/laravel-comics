@@ -1,11 +1,12 @@
 @extends('layouts.app')
+@section('page-title' , 'home')
 
 @section('content')
 <div class="jumbo">
     <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
 </div>
 <div class="bg-grey">
-    <div class="container text-white">
+    <div class="container-home text-white">
         <h1>card fumetti --> link comics in header</h1>
     </div>
 </div>
