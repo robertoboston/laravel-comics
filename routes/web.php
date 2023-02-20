@@ -24,7 +24,4 @@ Route::get('/comics',function(){
 
 })->name('fumetti');
 
-Route::get('/movies',function(){
-    
 
-});
