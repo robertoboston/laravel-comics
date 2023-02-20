@@ -22,7 +22,7 @@
                 Available
             </div>
         </div>
-        <div>
+        <div class="description">
             {{$single['description']}}
         </div>
     </div>
@@ -33,7 +33,7 @@
     </div>
 </div>
 <div class="description">
-    
+
 
 </div>
 @endsection
