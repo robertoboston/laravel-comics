@@ -83,6 +83,7 @@
     height: 500px;
     margin: 0 auto;
     position: relative;
+    display: flex;
 }
 
 .single-card{
@@ -111,3 +112,16 @@
     padding: 10px;
     color: white;
 }
+
+.advertise{
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+}
+
+.footer{
+    background-image: url('../img/footer-bg.jpg');
+    height: 500px;
+    width: 100%;
+}
+
