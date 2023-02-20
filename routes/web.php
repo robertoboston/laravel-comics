@@ -24,4 +24,15 @@ Route::get('/comics',function(){
 
 })->name('fumetti');
 
+Route::get('/comics/{id}',function($id){
+    $fumetti = config('db');
+    $single = '';
+    foreach($fumetti as $key => $item){
+        if($key == $id){
+            $single = $item;
+        }
+    };
 
+    return view('detail_comics',compact('single'));
+
+})->name('detail_comics');
